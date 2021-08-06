@@ -1,0 +1,35 @@
+.navbar {
+	width: 100%;
+	height: 60px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navbar__left,
+.navbar__right {
+	display: flex;
+}
+
+.navbar__left a,
+.navbar__right a {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.navbar__left a:hover,
+.navbar__right a:hover {
+	text-decoration: underline;
+}
+
+.navbar__left {
+	background-color: lightblue;
+}
+
+.navbar__right {
+	background-color: lightcoral;
+}
